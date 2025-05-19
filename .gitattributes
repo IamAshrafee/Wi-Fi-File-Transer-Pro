@@ -1,2 +1,91 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Python files
+*.py text diff=python
+*.pyw text diff=python
+*.pyi text diff=python
+
+# Documentation
+*.md text diff=markdown
+*.txt text
+*.rst text
+*.json text
+*.yml text
+*.yaml text
+*.xml text
+*.html text diff=html
+*.css text diff=css
+*.scss text diff=css
+*.js text diff=javascript
+*.ts text diff=typescript
+
+# Graphics
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text
+*.webp binary
+
+# Fonts
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+*.eot binary
+
+# Archives
+*.zip binary
+*.tar binary
+*.gz binary
+*.rar binary
+*.7z binary
+
+# Executables
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+
+# Database
+*.db binary
+*.sqlite binary
+*.sqlite3 binary
+
+# IDE specific
+.project text
+.classpath text
+.settings/* text
+*.sublime-workspace text
+*.sublime-project text
+
+# Logs and databases
+*.log text
+*.sql text
+*.sqlite text
+
+# Configs
+*.ini text
+*.cfg text
+*.conf text
+*.config text
+
+# Shell scripts
+*.sh text eol=lf
+*.bash text eol=lf
+*.zsh text eol=lf
+
+# Windows scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Documentation
+docs/* text
+LICENSE text
+README* text
+CHANGELOG* text
+CONTRIBUTING* text
+AUTHORS* text 
